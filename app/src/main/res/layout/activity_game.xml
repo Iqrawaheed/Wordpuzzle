@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".GameActivity">
+
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text=""
+        android:textColor="#FF5722"
+        android:layout_below="@id/gp_tv3"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/gp_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="17dp"
+        android:text="Large Text"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:textColor="#FF5722"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/gp_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gp_tv3"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="26dp"
+        android:text="Large Text"
+        android:textStyle="bold|italic"
+        android:fontFamily="cursive"
+        android:textSize="40dp"
+        android:textColor="#FF5722"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gp_tv2"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="63dp"
+        android:text="Question"
+        android:textColor="#F44336"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/gp_tv1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#FFEB3B"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/gp_et1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/gp_tv1"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:background="#8BC34A"
+        android:gravity="center"
+        android:hint="Guess the word"
+        android:textSize="35dp"  >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/gp_b1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gp_et1"
+        android:layout_below="@+id/gp_et1"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/gp_bkgrnd"
+        android:text="NEXT"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/gp_hint"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="17dp"
+        android:text="HINT"
+        android:drawableLeft="@drawable/star"
+        android:textStyle="bold"
+        android:background="@drawable/es_bkgrnd4" />
+
+    <TextView
+        android:id="@+id/gp_sh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gp_et1"
+        android:layout_below="@+id/gp_tv1"
+        android:layout_marginTop="33dp"
+        android:text="Starts with: "
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

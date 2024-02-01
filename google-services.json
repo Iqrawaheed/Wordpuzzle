@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821895479836",
+    "project_id": "wordpuzzle-28dc5",
+    "storage_bucket": "wordpuzzle-28dc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821895479836:android:2624569fedc010a01b15d9",
+        "android_client_info": {
+          "package_name": "com.example.wordpuzzle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrcrs3vzdzb-y-e_QZESwMSuRJGud90ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

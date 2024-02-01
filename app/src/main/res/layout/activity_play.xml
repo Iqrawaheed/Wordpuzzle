@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/sp_screen"
+    android:background="@drawable/a"
+    tools:context=".playActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sp_b1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="34dp"
+        android:gravity="center"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="@color/ashred"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/sp_b3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignLeft="@+id/sp_b2"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/sp_bkgrnd3"
+        android:drawableLeft="@drawable/edit"
+        android:gravity="center"
+        android:text="Developed By: MEHWISH ASIF/IQRA WAHEED/GHAZALI WARSI"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sp_b2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sp_b3"
+        android:layout_alignLeft="@+id/sp_b1"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/sp_bkgrnd2"
+        android:text="HOW TO PLAY"
+        android:drawableLeft="@drawable/qm"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sp_b1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sp_b2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="19dp"
+        android:background="@drawable/sp_bkgrnd1"
+        android:text="PLAY"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_above="@+id/sp_b1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        android:src="@drawable/mainlg" />
+
+</RelativeLayout>

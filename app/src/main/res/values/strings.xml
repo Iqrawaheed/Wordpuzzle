@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">WordPuzzle</string>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:onClick">buttonClick</item>
+
+    </style>
+
+    <string-array name="Background">
+        <item>Background 1</item>
+        <item>Background 2</item>
+        <item>Background 3</item>
+        <item>Background 4</item>
+        <item>Background 5</item>
+    </string-array>
+
+    <string name="title_activity_game_play">Jumble Words</string>
+    <string name="title_activity_end_scorepage">Jumble  Words</string>
+    <string name="title_activity_user_select">Jumble Words</string>
+    <string name="title_activity_categories">Jumble Words</string>
+    <string name="title_activity_level_page">Jumble Words</string>
+    <string name="title_activity_end_score_page">Jumble Words</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+</resources>
